@@ -53,3 +53,5 @@ TD 00 bis :
 Exercice 1 :
 
 5. L'invite de commande montre en rouge les lignes supprimées et en vert celles ajoutées. Ici on passe de 1000 à 2000.
+
+8. b8db37a27ae871c4857c7fc559a7193f006dd3a5
