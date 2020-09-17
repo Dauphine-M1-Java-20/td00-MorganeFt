@@ -49,7 +49,7 @@ public class PrimeCollection
 	
 	public static void main(String[] args) {
 		PrimeCollection myCollection = new PrimeCollection();
-		myCollection.initRandom(100, 1000);
+		myCollection.initRandom(100, 2000);
 		myCollection.printPrime();
 	}
 }
