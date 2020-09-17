@@ -10,16 +10,16 @@ import java.util.concurrent.ThreadLocalRandom;
  * @author Morgane Fiot
  *
  */
-public class PrimeCollection 
-{
+public class PrimeCollection {
 	ArrayList<Integer> numbers;
 
 	public PrimeCollection() {
 		this.numbers = new ArrayList<>();
 	}
-	
+
 	/**
 	 * Create a list of n numbers between 0 and m.
+	 * 
 	 * @param n number of observation
 	 * @param m maximum value
 	 */
@@ -28,17 +28,17 @@ public class PrimeCollection
 			numbers.add(ThreadLocalRandom.current().nextInt(0, m));
 		}
 	}
-	
+
 	private boolean isPrime(int p) {
 		boolean answer = true;
-		for (int i = 2; i < Math.sqrt(p)+1; i++) {
+		for (int i = 2; i < Math.sqrt(p) + 1; i++) {
 			if ((p % i) == 0) {
 				answer = false;
 			}
 		}
 		return answer;
 	}
-	
+
 	private void printPrime() {
 		for (int i = 0; i < numbers.size(); i++) {
 			if (isPrime(numbers.get(i))) {
@@ -46,7 +46,7 @@ public class PrimeCollection
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		PrimeCollection myCollection = new PrimeCollection();
 		myCollection.initRandom(100, 2000);

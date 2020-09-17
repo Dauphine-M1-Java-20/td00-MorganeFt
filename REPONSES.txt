@@ -63,3 +63,7 @@ Exercice 2 :
 6. On constate que le fichier est maintenant mis à jour main que les dernières modifications n'ont pas encore été poussées.
 
 7. Il y aurait eu un conflit de version.
+
+Exercice 3 :
+
+2. Tous les tests fonctionnent. En changeant True en False, le test ne fonctionne plus. assertTrue vérifie que ce qui est passé en paramètre est bien True.
