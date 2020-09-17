@@ -1,0 +1,50 @@
+Fiot
+
+Exercice 1 :
+
+4. Avec la commande mvn -v :
+Apache Maven 3.6.3 
+
+5. groupId : identifiant du groupe/projet il suit les règle de nommage des packages java (nom de domaine inversé)
+artifactId : nom du fichier .jar qui sera créé (sans numéro de version)
+
+6. src contient 2 dossiers : un dossier main et un de test. Le main contiendra le code et test tous les tests du code.
+
+8. Le class path est une variable qui permet de dire où se trouve la classe à exécuter.
+
+13. maven.compiler.target : spécifie les propriétés de la cible, c'est la valeur de la version de java utilisée. Pour éviter tout problème de version, il vaut mieux utiliser la même version pour la source et la cible.
+
+Exercice 2 :
+
+1. no main manifest attribute, in target/td00-1.0-SNAPSHOT.jar
+
+Exercice 3 :
+
+3. C'est la saisie prédictive d'Eclipse. sysout est le raccourci pour l'instruction System.out.println();
+
+4. même réponse. toStr est le raccourci du bloc de code :
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+5. même réponse. main est le raccourci pour le bloc d'instruction main :
+	public static void main(String[] args) {
+		
+	}
+
+6. Eclipse permet de créer rapidement et facilement les getteur et setteur des variables.
+	public int getToto() {
+		return toto;
+	}
+	
+	public void setToto(int toto) {
+		this.toto = toto;
+	}
+
+7. Alt + Shift + R permet de refactor le nom d'une classe ou d'une variable. Cela permet de changer le nom partout dans le projet.
+
+8. Permet de rentrer dans le code source de la classe java String.
+
+Exercice 4 :
+
