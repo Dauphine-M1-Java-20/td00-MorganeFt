@@ -35,4 +35,19 @@ public class PrimeCollectionTest
     {
         assertTrue( true );
     }
+    
+    public void test0IsPrime() {
+		PrimeCollection zeroCollection = new PrimeCollection();
+		assertTrue(zeroCollection.isPrime(0));
+	}
+    
+    public void testTwoIsPrime() {
+		PrimeCollection zeroCollection = new PrimeCollection();
+		assertTrue(zeroCollection.isPrime(2));
+	}
+    
+    public void test9IsNotPrime() {
+		PrimeCollection zeroCollection = new PrimeCollection();
+		assertFalse(zeroCollection.isPrime(9));
+	}
 }

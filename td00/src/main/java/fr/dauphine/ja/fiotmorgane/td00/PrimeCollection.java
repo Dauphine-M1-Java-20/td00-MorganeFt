@@ -1,7 +1,5 @@
 package fr.dauphine.ja.fiotmorgane.td00;
 
-import java.awt.print.Printable;
-import java.security.DrbgParameters.NextBytes;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -29,9 +27,9 @@ public class PrimeCollection {
 		}
 	}
 
-	private boolean isPrime(int p) {
+	public boolean isPrime(int p) {
 		boolean answer = true;
-		for (int i = 2; i < Math.sqrt(p) + 1; i++) {
+		for (int i = 3; i < Math.sqrt(p) + 1; i++) {
 			if ((p % i) == 0) {
 				answer = false;
 			}
